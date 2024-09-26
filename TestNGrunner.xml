@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Chrome Browser Testing" verbose="1" data-provider-thread-count="1">
+    <test name="UI Chrome">
+        <parameter name="BrowserName" value="Chrome"/>
+        <parameter name="PageLoadStrategy" value="Normal"/>
+        <classes>
+            <class name="Runner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
