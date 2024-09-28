@@ -13,5 +13,5 @@
 *.py linguist-detectable=true
 *.js linguist-detectable=true
 *.html linguist-detectable=false
-*.xml linguist-detectable=true
+*.xml linguist-detectable=false
 *.rb linguist-detectable=true
