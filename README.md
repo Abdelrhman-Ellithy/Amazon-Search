@@ -10,21 +10,55 @@ A simple task for searching an item, retrieving the results (names and prices), 
 
 ## Project Structure:
 ```text
-.
+Amazon-Search
 ├── src
 │   ├── main
-│   └── test
-│       ├── java
-│       │   ├── stepDefinitions
-│       │   ├── Base
-│       │   ├── Pages
-│       │   └── Ellithium
-│       │       └── Utilities
-│       │           └── ExcelHelper.java
-│       └── resources
-│           └── TestData
-│               └── Scope Assessment1.xlsx
-├── pom.xml
+│   │   ├── java
+│   │   │   ├── Pages
+│   │   │   │   └── SearchPage.java
+│   │   ├── resources
+│   │   │   ├── properties
+│   │   │   │   ├── default
+│   │   │   │   │   └── allure.properties
+│   │   │   │   │   └── config.properties
+│   │   │   │   │   └── log4j2.properties
+│   ├── test
+│   │   ├── java
+│   │   │   ├── Base
+│   │   │   │   └── BaseStepDefinitions.java
+│   │   │   ├── Runner
+│   │   │   │   └── TestRunner.java
+│   │   │   ├── stepDefinitions
+│   │   │   │   └── SearchStepDefinition.java
+│   │   ├── resources
+│   │   │   ├── TestData
+│   │   │   │   └── Scope Assessment1.xlsx
+│   │   │   ├── features
+│   │   │   │   └── Search.feature
+├── Test-Output
+│   ├── Logs
+│   │   └── Test.log
+│   ├── Reports
+│   │   ├── Allure
+│   │   │   ├── allure-report
+│   │   │   │   └── Ellithium-Test-Report-2024-09-26-10-0-35PM.html
+│   │   │   ├── allure-results
+│   │   ├── Cucumber
+│   │   │   └── cucumber.html
+│   │   │   └── cucumber.json
+│   ├── ScreenShots
+│   │   ├── Failed
+│   │   │   └── CHROMEThe user searches for Items and save their names and prices.png
+├── .idea
+│   └── compiler.xml
+│   └── encodings.xml
+│   └── jarRepositories.xml
+│   └── misc.xml
+│   └── vcs.xml
+│   └── workspace.xml
+│   └── .name
+└── TestNGrunner.xml
+└── pom.xml
 └── README.md
 ```
 
@@ -42,15 +76,7 @@ You only need to include the **Ellithium** dependency for your project. Below is
     <dependency>
         <groupId>io.github</groupId>
         <artifactId>Ellithium</artifactId>
-        <version>1.0.2</version>
-    </dependency>
-
-    <!-- Rest Assured (Optional, if required for API testing) -->
-    <dependency>
-        <groupId>io.rest-assured</groupId>
-        <artifactId>rest-assured</artifactId>
-        <version>${restversion}</version>
-        <scope>test</scope>
+        <version>${EllthiumVersion}</version>
     </dependency>
 </dependencies>
 ```
