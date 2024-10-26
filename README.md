@@ -74,7 +74,7 @@ You only need to include the **Ellithium** dependency for your project. Below is
 <dependencies>
     <!-- Ellithium Framework Dependency -->
     <dependency>
-        <groupId>io.github</groupId>
+        <groupId>io.github.abdelrhman-ellithy</groupId>
         <artifactId>Ellithium</artifactId>
         <version>${EllthiumVersion}</version>
     </dependency>

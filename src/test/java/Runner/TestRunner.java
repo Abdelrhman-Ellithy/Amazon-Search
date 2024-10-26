@@ -1,6 +1,6 @@
 package Runner;
 
-import Ellithium.DriverSetup.SETUP;
+import Ellithium.core.base.BDDSetup;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(

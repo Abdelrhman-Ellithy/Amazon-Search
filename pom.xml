@@ -11,7 +11,7 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <Ellithiumversion>1.0.3</Ellithiumversion>
+        <Ellithiumversion>1.0.5</Ellithiumversion>
     </properties>
     <repositories>
         <repository>
@@ -24,7 +24,7 @@
     </repositories>
     <dependencies>
         <dependency>
-            <groupId>io.github</groupId>
+            <groupId>io.github.abdelrhman-ellithy</groupId>
             <artifactId>Ellithium</artifactId>
             <version>${Ellithiumversion}</version>
         </dependency>
@@ -68,7 +68,7 @@
                             <goal>java</goal>
                         </goals>
                         <configuration>
-                            <mainClass>Ellithium.properties.StartUpLoader</mainClass>
+                            <mainClass>Ellithium.core.execution.Internal.Loader.StartUpLoader</mainClass>
                             <includePluginDependencies>true</includePluginDependencies>
                             <classpathScope>compile</classpathScope>
                         </configuration>
@@ -78,7 +78,7 @@
         </plugins>
         <resources>
             <resource>
-                <directory>src/main/resources/properties/default</directory>
+                <directory>src/main/resources/properties</directory>
                 <includes>
                     <include>**/*.properties</include>
                 </includes>

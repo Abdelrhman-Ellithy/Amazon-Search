@@ -1,7 +1,7 @@
 package stepDefinitions;
 
 import Base.BaseStepDefinitions;
-import Ellithium.Utilities.ExcelHelper;
+import Ellithium.Utilities.helpers.ExcelHelper;
 import Pages.SearchPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;

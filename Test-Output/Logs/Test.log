@@ -1,141 +1,106 @@
-2024-09-26 22:36:20 DEBUG TestNG - suiteXmlPath: "C:\Users\lenovo\IdeaProjects\Task\TestNGrunner.xml"
-2024-09-26 22:36:20 TRACE Graph - [Graph] ADDING NODE SETUP.setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:null] -1218125343
-2024-09-26 22:36:20 TRACE Graph - [Graph] ================ SORTING
-2024-09-26 22:36:20 TRACE Graph - [Graph] =============== DONE SORTING
-2024-09-26 22:36:20 TRACE Graph - [Graph] ====== SORTED NODES
-2024-09-26 22:36:20 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-09-26 22:36:20 TRACE Graph - [Graph] ADDING NODE SETUP.tearDown()[pri:0, instance:null] 757730714
-2024-09-26 22:36:20 TRACE Graph - [Graph] ================ SORTING
-2024-09-26 22:36:20 TRACE Graph - [Graph] =============== DONE SORTING
-2024-09-26 22:36:20 TRACE Graph - [Graph] ====== SORTED NODES
-2024-09-26 22:36:20 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-09-26 22:36:20 TRACE Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
-2024-09-26 22:36:20 TRACE Graph - [Graph] ================ SORTING
-2024-09-26 22:36:20 TRACE Graph - [Graph] =============== DONE SORTING
-2024-09-26 22:36:20 TRACE Graph - [Graph] ====== SORTED NODES
-2024-09-26 22:36:20 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-09-26 22:36:20 TRACE Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
-2024-09-26 22:36:20 TRACE Graph - [Graph] ================ SORTING
-2024-09-26 22:36:20 TRACE Graph - [Graph] =============== DONE SORTING
-2024-09-26 22:36:20 TRACE Graph - [Graph] ====== SORTED NODES
-2024-09-26 22:36:20 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-09-26 22:36:20 TRACE Graph - [Graph] ADDING NODE SETUP.setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Runner.TestRunner@6e46d9f4] -1552010189
-2024-09-26 22:36:20 TRACE Graph - [Graph] ================ SORTING
-2024-09-26 22:36:20 TRACE Graph - [Graph] =============== DONE SORTING
-2024-09-26 22:36:20 TRACE Graph - [Graph] ====== SORTED NODES
-2024-09-26 22:36:20 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-09-26 22:36:20 TRACE Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6e46d9f4] 699777733
-2024-09-26 22:36:20 TRACE Graph - [Graph] ================ SORTING
-2024-09-26 22:36:20 TRACE Graph - [Graph] =============== DONE SORTING
-2024-09-26 22:36:20 TRACE Graph - [Graph] ====== SORTED NODES
-2024-09-26 22:36:20 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-09-26 22:36:20 TRACE Graph - [Graph] ADDING NODE SETUP.tearDown()[pri:0, instance:Runner.TestRunner@6e46d9f4] -430014566
-2024-09-26 22:36:20 TRACE Graph - [Graph] ================ SORTING
-2024-09-26 22:36:20 TRACE Graph - [Graph] =============== DONE SORTING
-2024-09-26 22:36:20 TRACE Graph - [Graph] ====== SORTED NODES
-2024-09-26 22:36:20 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-09-26 22:36:20 INFO  Utils - [TestNG] Running:
-  C:\Users\lenovo\IdeaProjects\Task\TestNGrunner.xml
-
-2024-09-26 22:36:21 INFO  logsUtils - [96m[START] CHROME[94m Scenario The user searches for Items and save their names and prices [START]
-[37m
-2024-09-26 22:36:21 INFO  logsUtils - [92mChrome Options Configured[37m
-2024-09-26 22:36:24 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[37m
-2024-09-26 22:36:24 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[37m
-2024-09-26 22:36:24 INFO  logsUtils - [92mWebDriver Created[37m
-2024-09-26 22:36:26 INFO  logsUtils - [94mNavigated To URL: https://www.amazon.eg/-/en/[37m
-2024-09-26 22:36:27 INFO  logsUtils - [94mSending Data "Monitor" To Element: By.id: twotabsearchtextbox[37m
-2024-09-26 22:36:27 INFO  logsUtils - [94mClick On Element: By.id: nav-search-submit-button[37m
-2024-09-26 22:36:28 INFO  logsUtils - [94mGetting text from multiple elements located: By.cssSelector: span[class='a-size-base-plus a-color-base a-text-normal'][37m
-2024-09-26 22:36:29 INFO  logsUtils - [94mGetting text from multiple elements located: By.className: a-price-whole[37m
-2024-09-26 22:36:30 TRACE XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
-2024-09-26 22:36:30 TRACE XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-2024-09-26 22:36:30 TRACE XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-2024-09-26 22:36:30 TRACE XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-2024-09-26 22:36:30 TRACE XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-2024-09-26 22:36:30 TRACE XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-2024-09-26 22:36:30 TRACE XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-2024-09-26 22:36:30 TRACE XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-2024-09-26 22:36:30 TRACE XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-2024-09-26 22:36:30 TRACE XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
-2024-09-26 22:36:30 TRACE XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-2024-09-26 22:36:30 TRACE XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-2024-09-26 22:36:30 TRACE XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-2024-09-26 22:36:30 TRACE XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
-2024-09-26 22:36:30 TRACE XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctworkbook83c3type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctworkbookpr03a5type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctbookviewsb864type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctbookviewf677type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctsheets49fdtype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle propertiesee84doctype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctproperties3f10type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle properties288cdoctype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctproperties2c18type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle sstf81fdoctype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctsst44f3type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctstylesheet4257type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctfont14d8type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctfontsizeb3b9type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctcolord2c2type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctfontname2dc3type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle stxstringf179type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctfontfamily685ctype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle stfontfamily9c6ctype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctfontschemebf5dtype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle stfontschemef36dtype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctfill550ctype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctpatternfill7452type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle stpatterntype7939type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctborderf935type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctborderpre497type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctxf97f7type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle stnumfmtid76fbtype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle stfontid9d63type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle stfillida097type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle stborderid1a80type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle stcellstylexfid70c7type
-2024-09-26 22:36:30 INFO  logsUtils - [92mCreating new Excel file: src/test/resources/TestData/Scope Assessment1[37m
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctsheet4dbetype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctworksheet530dtype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctsheetformatprdef7type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctsheetviewsb918type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctsheetview0f43type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctsheetdimensiond310type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle stref90a2type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctsheetdata8408type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctpagemargins5455type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctcols627ctype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle strelationshipid1e94type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctrowdd39type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctcell842btype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle stcellrefe4e0type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctrsta472type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle stcelltypebf95type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctnumfmtsb58btype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctfonts6623type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctfills2c6ftype
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctborders0d66type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctcellxfs1322type
-2024-09-26 22:36:30 TRACE XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
-2024-09-26 22:36:30 DEBUG ZipPackage - Save core properties part
-2024-09-26 22:36:30 DEBUG ZipPackage - Save content types part
-2024-09-26 22:36:31 DEBUG ZipPackage - Save package relationships
-2024-09-26 22:36:31 DEBUG ZipPackage - Save part 'docProps/app.xml'
-2024-09-26 22:36:31 DEBUG ZipPackage - Save part 'docProps/core.xml'
-2024-09-26 22:36:31 DEBUG ZipPackage - Save part 'xl/sharedStrings.xml'
-2024-09-26 22:36:31 DEBUG ZipPackage - Save part 'xl/styles.xml'
-2024-09-26 22:36:31 DEBUG ZipPackage - Save part 'xl/workbook.xml'
-2024-09-26 22:36:31 DEBUG ZipPackage - Save part 'xl/worksheets/sheet1.xml'
-2024-09-26 22:36:31 INFO  logsUtils - [92mSuccessfully wrote data to Excel file: src/test/resources/TestData/Scope Assessment1[37m
-2024-09-26 22:36:31 DEBUG ZipPackage - Save content types part
-2024-09-26 22:36:31 DEBUG ZipPackage - Save package relationships
-2024-09-26 22:36:31 DEBUG ZipPackage - Save part 'docProps/app.xml'
-2024-09-26 22:36:31 DEBUG ZipPackage - Save part 'docProps/core.xml'
-2024-09-26 22:36:31 DEBUG ZipPackage - Save part 'xl/sharedStrings.xml'
-2024-09-26 22:36:31 DEBUG ZipPackage - Save part 'xl/styles.xml'
-2024-09-26 22:36:31 DEBUG ZipPackage - Save part 'xl/workbook.xml'
-2024-09-26 22:36:31 DEBUG ZipPackage - Save part 'xl/worksheets/sheet1.xml'
-2024-09-26 22:36:31 INFO  logsUtils - [92m CHROME[PASSED] Scenario The user searches for Items and save their names and prices [PASSED][37m
-2024-09-26 22:36:31 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[37m
+2024-10-26 13:06:42 INFO  logsUtils - [94mGetting Timestamp: 2024-10-26[0m
+2024-10-26 13:06:42 INFO  logsUtils - [94mReading value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker[0m
+2024-10-26 13:06:42 INFO  logsUtils - [92mSuccessfully read value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker[0m
+2024-10-26 13:06:42 INFO  logsUtils - [94m---------------------------------------------[0m
+2024-10-26 13:06:42 INFO  logsUtils - [96m------- Ellithium  Engine Setup -------------[0m
+2024-10-26 13:06:42 INFO  logsUtils - [94m---------------------------------------------[0m
+2024-10-26 13:06:42 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-10-26 13:06:42 INFO  logsUtils - [38;5;200m[ SUITE STARTED]: UI CHROME BROWSER TESTING [SUITE STARTED][0m
+2024-10-26 13:06:42 INFO  logsUtils - [95m[ALL TESTS STARTED]: UI CHROME [ALL TESTS STARTED][0m
+2024-10-26 13:06:42 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-10-26 13:06:43 INFO  logsUtils - [96m[START] [94m Scenario The user searches for Items and save their names and prices [START][0m
+2024-10-26 13:06:43 INFO  logsUtils - [92mChrome Options Configured[0m
+2024-10-26 13:06:45 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-10-26 13:06:45 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-10-26 13:06:46 INFO  logsUtils - [92mWebDriver Created[0m
+2024-10-26 13:06:46 INFO  logsUtils - [94mNavigating to URL: https://www.amazon.eg/-/en/[0m
+2024-10-26 13:06:58 INFO  logsUtils - [94mSent Data: "Monitor" into Search Amazon.eg.[0m
+2024-10-26 13:06:58 INFO  logsUtils - [94mElement enabled: true[0m
+2024-10-26 13:07:04 INFO  logsUtils - [94mClicked on element: [0m
+2024-10-26 13:07:04 INFO  logsUtils - [94mGetting text from multiple elements located: By.cssSelector: span[class='a-size-base-plus a-color-base a-text-normal'][0m
+2024-10-26 13:07:06 INFO  logsUtils - [94mGetting text from multiple elements located: By.className: a-price-whole[0m
+2024-10-26 13:07:07 INFO  logsUtils - [92mAttempting to write data to Excel file: src/test/resources/TestData/Scope Assessment1, sheet: ItemsAndPrices[0m
+2024-10-26 13:07:07 DEBUG PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-10-26 13:07:07 DEBUG PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2024-10-26 13:07:07 TRACE XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2024-10-26 13:07:07 TRACE XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2024-10-26 13:07:07 TRACE XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2024-10-26 13:07:07 TRACE XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2024-10-26 13:07:07 TRACE XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2024-10-26 13:07:07 TRACE XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2024-10-26 13:07:07 TRACE XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2024-10-26 13:07:07 TRACE XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2024-10-26 13:07:07 TRACE XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2024-10-26 13:07:07 TRACE XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2024-10-26 13:07:07 TRACE XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2024-10-26 13:07:07 TRACE XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2024-10-26 13:07:07 TRACE XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2024-10-26 13:07:07 TRACE XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2024-10-26 13:07:07 TRACE XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle sstf81fdoctype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctsst44f3type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctrsta472type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctstylesheet4257type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctnumfmtsb58btype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctfonts6623type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctfont14d8type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctfills2c6ftype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctfill550ctype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctborders0d66type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctborderf935type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctcellxfs1322type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctxf97f7type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle workbookec17doctype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctworkbook83c3type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctsheets49fdtype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctsheet4dbetype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle strelationshipid1e94type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle worksheetf539doctype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctworksheet530dtype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctsheetdata8408type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctrowdd39type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctcell842btype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle stcellrefe4e0type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctcols627ctype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle stxstringf179type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle stcelltypebf95type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctsheetdimensiond310type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle stref90a2type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle propertiesee84doctype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctproperties3f10type
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle properties288cdoctype
+2024-10-26 13:07:07 TRACE XBeanDebug - Resolving type for handle ctproperties2c18type
+2024-10-26 13:07:07 DEBUG ZipPackage - Save content types part
+2024-10-26 13:07:07 DEBUG ZipPackage - Save package relationships
+2024-10-26 13:07:07 DEBUG ZipPackage - Save part 'docProps/app.xml'
+2024-10-26 13:07:07 DEBUG ZipPackage - Save part 'docProps/core.xml'
+2024-10-26 13:07:07 DEBUG ZipPackage - Save part 'xl/sharedStrings.xml'
+2024-10-26 13:07:07 DEBUG ZipPackage - Save part 'xl/styles.xml'
+2024-10-26 13:07:07 DEBUG ZipPackage - Save part 'xl/workbook.xml'
+2024-10-26 13:07:07 DEBUG ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+2024-10-26 13:07:07 INFO  logsUtils - [92mSuccessfully wrote data to Excel file: src/test/resources/TestData/Scope Assessment1, sheet: ItemsAndPrices[0m
+2024-10-26 13:07:07 INFO  logsUtils - [92m[PASSED] Scenario The user searches for Items and save their names and prices [PASSED][0m
+2024-10-26 13:07:07 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-10-26 13:07:07 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\log4j2[0m
+2024-10-26 13:07:07 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\log4j2[0m
+2024-10-26 13:07:07 INFO  logsUtils - Log file successfully attached to the Allure report.
+2024-10-26 13:07:08 INFO  logsUtils - [95m[ALL TESTS COMPLETED]: UI CHROME [ALL TESTS COMPLETED][0m
+2024-10-26 13:07:08 INFO  logsUtils - [38;5;200m[SUITE FINISHED]: UI CHROME BROWSER TESTING [SUITE FINISHED][0m
+2024-10-26 13:07:08 INFO  logsUtils - [94m------------------------------------------[0m
+2024-10-26 13:07:08 INFO  logsUtils - [96m------- Ellithium  Engine TearDown -------[0m
+2024-10-26 13:07:08 INFO  logsUtils - [94m------------------------------------------[0m
+2024-10-26 13:07:08 INFO  logsUtils - [96mTotal Execution Time is: 0 Min 25 Sec 455 Mills[0m
+2024-10-26 13:07:08 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-10-26 13:07:08 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-10-26 13:07:08 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-10-26 13:07:08 INFO  logsUtils - [92mAllure folder exists at: C:\Users\lenovo\.m2\repository\allure-Ellithium[0m
+2024-10-26 13:07:08 INFO  logsUtils - [92mFound Allure binary directory: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin[0m
+2024-10-26 13:07:08 INFO  logsUtils - [92mAttempting to execute command: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin\allure generate --single-file --name "Test Report" -o .\LastReport\ .\Test-Output/Reports/Allure/allure-results\[0m
+2024-10-26 13:07:11 INFO  logsUtils - [92mCommand executed successfully. Exit code: 0[0m
+2024-10-26 13:07:11 INFO  logsUtils - [94mGetting Timestamp: 2024-10-26-1-7-11PM[0m
+2024-10-26 13:07:11 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-10-26 13:07:11 INFO  logsUtils - [92mAttempting to execute command: start Test-Output\Reports\Allure\allure-report\Ellithium-Test-Report-2024-10-26-1-7-11PM.html[0m
+2024-10-26 13:07:11 INFO  logsUtils - [92mCommand executed successfully. Exit code: 0[0m
